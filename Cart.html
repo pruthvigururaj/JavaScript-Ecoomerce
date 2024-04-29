@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Ecommerce Website</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="footer-fiv">
+        <div class="footerone">
+          <p>Free shipping 30 day return or refund guarantee</p>
+          <div class="singin">
+            <li>Sing In</li>
+            <li>Sing Up</li>
+          </div>
+        </div>
+        <div class="footertwo">
+          <div class="img-store">
+            <span class="img-store-one">Pruthvi</span>
+            <span class="img-store-two">Store</span>
+          </div>
+          <div class="list-div">
+            <a href="index.html" class="list-div-a"><li>HOME</li></a>
+            <a href="index.html" class="list-div-a"><li>ABOUT</li></a>
+            <a href="index.html" class="list-div-a"><li>PRODUCTS</li></a>
+            <a href="index.html" class="list-div-a"><li>CONTACT</li></a>
+            
+            <div class="cart-div">
+                <i class="material-symbols-outlined">Shopping_Cart</i>
+                <p class="cart-div-totalNumber">0</p>
+            </div>
+          </div>
+        </div>
+    </div> 
+   
+    <div class="containerC-temp">
+
+    </div>
+  
+<template id="containerC-products">
+    <div class="containerC" id="cart">
+          <div class="containerC-elements">
+            <p class="containerC-title"></p>
+            <img src="laptop.jpg" alt="laptop" class="containerC-img">
+            <h3 class="containerC-name"></h3>
+            <p class="containerC-price"></p>
+            <div class="containerC-buttons">
+                <button class="containerC-btn-incre">+</button>
+                <p class="containerC-quantity"></p>
+                <button class="containerC-btn-decre">-</button>
+            </div>
+            <button class="containerC-remove-button">Remove</button>
+          </div>
+    </div>
+</template>
+    
+    <div class="containerC-total-box">
+        <div class="containerC-total">
+            <h3 class="containerC-total-h3">Selected Offer Summary</h3>
+            <div class="containerC-subtotal">
+                <h3>Sub Total:</h3>
+                <h3 class="containerC-amount containerC-subtotal-value">₹00.00</h3>
+            </div>
+            <div class="containerC-subtotal containerC-last">
+                <h3>Tax</h3>
+                <h3 class="containerC-amount">₹50</h3>
+                
+            </div>
+            
+            <div class="containerC-subtotal">
+                <h3>Final Count</h3>
+                <h3 class="containerC-amount containerC-subtotal-totalvalue">₹00.00</h3>
+            </div> 
+        </div>
+    </div>
+    
+    
+    
+    <div class="footer-last-main">
+        <div class="footer-last">
+          <div class="footer-last-one">
+            <div class="footer-last-img">
+              <span class="footer-last-imgone">PRUTHVI</span>
+              <span class="footer-last-imgtwo">STORE</span>
+            </div>
+               <p>Welcome to pruthvi EcomStore your ultimate destination for cutting-edge gadgets</p>
+          </div>
+          <div class="footer-last-two">
+             <h2>Shopping</h2>
+             <h4>Computer Store</h4>
+             <h4>Laptop Store</h4>
+             <h4>Accessories</h4>
+             <h4>Sales & Discount</h4>
+          </div>
+          <div class="footer-last-two">
+             <h2>Experience</h2>
+             <h4>Contact US</h4>
+             <h4>Payment Modes</h4>
+             <h4>Delivery</h4>
+             <h4>Excahnge and Return</h4>
+          </div>
+        </div>
+      </div>
+      <script type="module" src="showAddToCart.js"></script>
+</body>
+</html>
